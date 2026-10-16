@@ -1,0 +1,28 @@
+# Secrets
+.env
+*.env
+secrets.json
+credentials.json
+
+# API keys
+*api_key*
+*API_KEY*
+
+# Runtime data
+schedule.json
+chroma_db/
+chroma_schedule_db/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
